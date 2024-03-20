@@ -1,0 +1,72 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set header height to full viewport height */
+}
+.App-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.button-groups{
+  position: absolute;
+  left: 30%;
+}
+.reset{
+  position: absolute;
+  top: 80%;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-sequence-container {
+  text-align: center;
+}
+
+.color-range {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  justify-content: center;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.color-label {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+}
+
+.message {
+  font-weight: bold;
+  color: blue;
+}
